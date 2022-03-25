@@ -6,12 +6,17 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  display: flex;
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  flex: 1;
 }
 
 .profile-image {
@@ -45,4 +50,23 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+div {
+  display: flex;
+}
+
+.left {
+  justify-content: flex-start;
+  flex: 1;
+  flex-wrap: nowrap;
+}
+
+.right {
+  justify-content: flex-end;
+  flex: 1;
+  gap: 16px;
+  align-items: inherit;
 }
