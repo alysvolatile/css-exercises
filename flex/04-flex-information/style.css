@@ -25,12 +25,14 @@ img {
   background: #eee;
 }
 
-.title {
-  margin-bottom: 32px;
-}
+/* solution */
 
 body {
   text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
 }
 
 .box {
@@ -39,6 +41,6 @@ body {
   gap: 52px;
 }
 
-.plant {
-  max-width: 210px;
+.info {
+  max-width: 200px;
 }
